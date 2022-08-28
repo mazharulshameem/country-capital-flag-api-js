@@ -1,0 +1,13 @@
+#countries-contrainer{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+
+}
+.country{
+  border: 1px solid black;
+  background: rgb(194, 218, 241);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
